@@ -1,0 +1,7 @@
+Fixes errors when adding transactions
+
+Added input validation to the transaction API endpoint using Zod to prevent errors caused by incorrect data formats.  The `apiTransactionSchema` in `server/routes.ts` now validates incoming transaction data before it's processed.
+
+Replit-Commit-Author: Agent
+Replit-Commit-Session-Id: fbdab757-089e-45d6-ab4c-112fd59d16d6
+Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/b906b25e-3ef9-4bfa-8853-5087845dd743/bfdafb4b-c82f-48e7-9ee3-758ed34575ac.jpg
